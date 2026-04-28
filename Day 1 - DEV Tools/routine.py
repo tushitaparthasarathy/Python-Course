@@ -1,0 +1,6 @@
+print("My Daily Routine")
+print("I Wake Up At 7am")
+print("I Go To School At 8am")
+print("I Play With My Friends In The Evening")
+print("I Study For 2 Hours At Night")
+print("Total Study Hours In A Week:", 2*7)
