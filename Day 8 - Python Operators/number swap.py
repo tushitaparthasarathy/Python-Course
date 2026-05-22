@@ -1,0 +1,12 @@
+a=input("Enter the first value :")
+b=input("Enter the second value :")
+c=input("Enter the third value :")
+print("Before sawpping :")
+print("a=",a)
+print("b=",b)
+print("c=",c)
+print('Afrer swapping : ')
+a,b,c=c,a,b
+print("a=",a)
+print("b=",b)
+print("c=",c)   
