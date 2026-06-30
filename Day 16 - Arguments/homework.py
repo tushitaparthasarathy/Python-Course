@@ -1,9 +1,10 @@
-def shutdown(condition):
-    condition=input("Do you want to shutdown")
-    return condition
-    if condition=="yes":
+def shutdown():
+    choice = input("Do you want to shut down? (Yes/No): ")
+
+    if choice == "Yes":
         print("Shutting down")
-    elif condition=="no":
-        print("Abort shutdown")
+    elif choice == "No":
+        print("Abort shut down")
     else:
-        print("sorry")
+        print("Sorry.")
+shutdown()
