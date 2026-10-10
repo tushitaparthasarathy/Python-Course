@@ -20,7 +20,7 @@ def game_loop():
             if event.type==pygame.QUIT:
                 running=False
         display_surface.blit(background_image,(0,0))
-        display_surface.blit(penguin_image, penguin_rect)
+        display_surface.blit(penguin_image, peguin_rect)
         display_surface.blit(text, text_rect)
         pygame.display.flip()
         clock.tick(30)
